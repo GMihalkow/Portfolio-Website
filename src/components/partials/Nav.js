@@ -10,7 +10,7 @@ export class Nav extends Component {
                     <li><Link to="/about">About</Link></li>
                     <li><Link>Certificates</Link></li>
                     <li><Link to="/skills">Skills</Link></li>
-                    <li><Link>Contact</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
                 </ul>
             </nav>
         )

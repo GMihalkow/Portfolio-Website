@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithubSquare  } from '@fortawesome/free-brands-svg-icons';
-import { faFacebookSquare  } from '@fortawesome/free-brands-svg-icons';
-import { faLinkedin  } from '@fortawesome/free-brands-svg-icons';
+import SocialMediaButtons from '../partials/SocialMediaButtons';
 import './css/about.css';
 import './css/skills.css';
 
@@ -34,18 +31,8 @@ export class SkillsPage extends Component {
                             <h3>NO SQL</h3>
                             <h3>Mongo DB</h3>
                         </div>
-                    </section>    
-                    <footer>
-                        <div>
-                            <FontAwesomeIcon className="growing-icon" icon={faGithubSquare} size="3x" />
-                        </div>
-                        <div>
-                            <FontAwesomeIcon className="growing-icon" icon={faLinkedin} size="3x" />
-                        </div>
-                        <div>
-                            <FontAwesomeIcon className="growing-icon" icon={faFacebookSquare} size="3x" />
-                        </div>
-                    </footer>
+                    </section>   
+                    <SocialMediaButtons /> 
                 </section>
             </section>
         )

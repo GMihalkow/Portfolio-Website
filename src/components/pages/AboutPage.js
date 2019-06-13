@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithubSquare  } from '@fortawesome/free-brands-svg-icons';
-import { faFacebookSquare  } from '@fortawesome/free-brands-svg-icons';
-import { faLinkedin  } from '@fortawesome/free-brands-svg-icons';
+import SocialMediaButtons from '../partials/SocialMediaButtons';
 import './css/about.css';
 
 export class AboutPage extends Component {
@@ -26,17 +23,7 @@ export class AboutPage extends Component {
                             </ul>
                         </section>
                     </section>
-                    <footer>
-                        <div>
-                            <FontAwesomeIcon className="growing-icon" icon={faGithubSquare} size="3x" />
-                        </div>
-                        <div>
-                            <FontAwesomeIcon className="growing-icon" icon={faLinkedin} size="3x" />
-                        </div>
-                        <div>
-                            <FontAwesomeIcon className="growing-icon" icon={faFacebookSquare} size="3x" />
-                        </div>
-                    </footer>
+                    <SocialMediaButtons />
                 </section>
                 <p className="about-info">  
                     <em>

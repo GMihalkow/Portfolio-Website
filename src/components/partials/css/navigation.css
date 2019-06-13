@@ -6,6 +6,7 @@
 .nav > ul {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .nav > ul > li {
