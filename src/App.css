@@ -3,6 +3,10 @@ a {
   color: black;
 }
 
+#social-buttons {
+  box-shadow: 0px 6px 11px 0px #555;
+}
+
 .App {
   position: relative;
   height: 100vh;
